@@ -13,8 +13,12 @@ function App() {
     <NavbarComp/>
     <Routes>
     <Route path="/" element={<ProductList/>}/>
+    <Route path="/Storeapp/" element={<ProductList/>}/>
     <Route path="/edit/:id" element={<EditProduct/>}/>
+    <Route path="/Storeapp/edit/:id" element={<EditProduct/>}/>
+    <Route path="/Storeapp/add-product" element={<AddProductList/>}/>
     <Route path="/add-product" element={<AddProductList/>}/>
+
     </Routes>
     </Router>
     </div>
